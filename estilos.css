@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #FBF7FF;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header{
+    background-color: #FBF7FF;
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+nav{
+    margin: 0 auto;
+    width: 90%;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;  
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #312C42;
+    font-size: .8rem;
+    font-family: 'Press Start 2P', cursive;
+    padding: .5rem;
+}
+
+.hero{
+    width: 100%;
+    background-image: url(img/fondohero.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 50vh;
+}
+.logo{
+    height: 20rem;
+}
+
+.logo--v{
+    height: 55px;
+    position: absolute;
+    top: 3rem;
+    right: 4rem;
+}
+
+
+
