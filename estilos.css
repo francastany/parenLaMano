@@ -115,3 +115,21 @@ footer img{
     height: 1.7rem;
 }
 
+
+.programasCompletos{
+    background-color: #302B41;
+}
+.programasCompletos .card a{
+    background-color: #302B41;
+}
+
+.programasCompletos h2{
+    font-family: 'Press Start 2P', cursive;
+}
+.programas__banner{
+    height: 32.5rem;
+    background-image: url(./img/programas_banner.jfif);
+    background-size: cover;
+    background-position: center;
+}
+

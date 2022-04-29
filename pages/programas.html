@@ -5,42 +5,198 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Programas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+
     <link rel="stylesheet" href="../estilos.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-
-
 </head>
 <body>
-    <section class="hero">
-        <img class="logo" src="../img/logo-removebg-preview.png" alt="">
-        <a href="https://vorterix.com/"><img class="logo--v" src="../img/vorterix.png" alt="Vorterix"></a>
-    </section>
-    
-    <header>
-            <nav>
-                <ul>
-                    <li><a href="../index.html">INICIO</a></li>
-                    <li><a href="nosotros.html">NOSOTROS</a></li>
-                    <li><a href="programas.html">PROGRAMAS</a></li>
-                    <li><a href="contacto.html">CONTACTO</a></li>
-                    <li><a href="enVivo.html">EN VIVO</a></li>
-                </ul>
-            </nav>        
-    </header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light pt-0 pb-0 fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand pt-1 pb-1" href="../index.html">
+            <img class="pt-0 pb-0" src="../img/logo.jpg" alt="" width="90">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end pe-5" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link text-white px-4 text-uppercase fw-bold" href="../pages/programas.html">Programas</a>
+              <a class="nav-link text-white px-4 text-uppercase fw-bold" href="../pages/enVivo.html">En Vivo</a>
+              <a class="nav-link text-white px-4 text-uppercase fw-bold" href="../pages/contacto.html">Contacto</a>
+            </div>
+          </div>
+        </div>
+    </nav>
 
     <main>
-        
+        <section class="ultimosProgramas">
+
+          <div id="carouselExampleSlidesOnly" class="carousel slide my-0 mx-auto" data-bs-ride="carousel" data-bs-pause="false">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="3500">
+                <img src="../img/yt-programas/28.jfif" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="3500">
+                <img src="../img/yt-programas/27.jfif" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="3500">
+                <img src="../img/yt-programas/26.jfif" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="3500">
+                <img src="../img/yt-programas/25.jfif" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="3500">
+                <img src="../img/yt-programas/22.jfif" class="d-block w-100" alt="...">
+              </div>
+            </div>
+          </div>
+
+        </section>
+
+        <section class="programasCompletos container-fluid">
+          <h2 class="ps-5 py-4 text-white">Programas Completos</h2>
+
+          <div class="row row-cols-1 row-cols-md-3 g-4 mx-3 pb-3">
+            <div class="col">
+              <div class="card h-100">
+                <img src="../img/yt-programas/28.jfif" class="card-img-top" alt="28/04">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">#ParenLaMano Completo - 28/04 | Vorterix</h5>
+                  <a target="_blank" href="https://www.youtube.com/watch?v=jgamoxgIJEk&list=PLHZOhV2rP0rlOnK9G820aDHUi11ZkQH9Q&index=1" class="btn btn-dark fw-bold mt-2">Miralo acá</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="../img/yt-programas/27.jfif" class="card-img-top" alt="27/04">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">#ParenLaMano Completo - 27/04 | Vorterix</h5>
+                  <a target="_blank" href="https://www.youtube.com/watch?v=4dTxcm4wSS0&list=PLHZOhV2rP0rlOnK9G820aDHUi11ZkQH9Q&index=2" class="btn btn-dark fw-bold mt-2">Miralo acá</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="../img/yt-programas/26.jfif" class="card-img-top" alt="26/04">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">#ParenLaMano Completo - 26/04 | Vorterix</h5>
+                  <a target="_blank" href="https://www.youtube.com/watch?v=Zq5rR1er8bc&list=PLHZOhV2rP0rlOnK9G820aDHUi11ZkQH9Q&index=3" class="btn btn-dark fw-bold mt-2">Miralo acá</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="../img/yt-programas/25.jfif" class="card-img-top" alt="25/04">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">#ParenLaMano Completo - 25/04 | Vorterix</h5>
+                  <a target="_blank" href="https://www.youtube.com/watch?v=bmk-1CYaJas&list=PLHZOhV2rP0rlOnK9G820aDHUi11ZkQH9Q&index=4" class="btn btn-dark fw-bold mt-2">Miralo acá</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="../img/yt-programas/22.jfif" class="card-img-top" alt="22/04">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">#ParenLaMano Completo - 22/04 | Vorterix</h5>
+                  <a target="_blank" href="https://www.youtube.com/watch?v=NR2EQSY-FJ8&list=PLHZOhV2rP0rlOnK9G820aDHUi11ZkQH9Q&index=5" class="btn btn-dark fw-bold mt-2">Miralo acá</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="../img/yt-programas/21.jfif" class="card-img-top" alt="21/04">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">#ParenLaMano Completo - 21/04 | Vorterix</h5>
+                  <a target="_blank" href="https://www.youtube.com/watch?v=_OCdY919D1E&list=PLHZOhV2rP0rlOnK9G820aDHUi11ZkQH9Q&index=6" class="btn btn-dark fw-bold mt-2">Miralo acá</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="../img/yt-programas/20.jfif" class="card-img-top" alt="20/04">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">#ParenLaMano Completo - 20/04 | Vorterix</h5>
+                  <a target="_blank" href="https://www.youtube.com/watch?v=qEq37mSLGF4&list=PLHZOhV2rP0rlOnK9G820aDHUi11ZkQH9Q&index=7" class="btn btn-dark fw-bold mt-2">Miralo acá</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="../img/yt-programas/19.jfif" class="card-img-top" alt="19/04">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">#ParenLaMano Completo - 19/04 | Vorterix</h5>
+                  <a target="_blank" href="https://www.youtube.com/watch?v=WUR6UV8FhgM&list=PLHZOhV2rP0rlOnK9G820aDHUi11ZkQH9Q&index=8" class="btn btn-dark fw-bold mt-2">Miralo acá</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="../img/yt-programas/18.jfif" class="card-img-top" alt="18/04">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">#ParenLaMano Completo - 18/04 | Vorterix</h5>
+                  <a target="_blank" href="https://www.youtube.com/watch?v=jisRxVy2jw8&list=PLHZOhV2rP0rlOnK9G820aDHUi11ZkQH9Q&index=9" class="btn btn-dark fw-bold mt-2">Miralo acá</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="../img/yt-programas/15.jfif" class="card-img-top" alt="15/04">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">#ParenLaMano Completo - 15/04 | Vorterix</h5>
+                  <a target="_blank" href="https://www.youtube.com/watch?v=XFGUVl93Hnc&list=PLHZOhV2rP0rlOnK9G820aDHUi11ZkQH9Q&index=10" class="btn btn-dark fw-bold mt-2">Miralo acá</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="../img/yt-programas/14.jfif" class="card-img-top" alt="14/04">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">#ParenLaMano Completo - 14/04 | Vorterix</h5>
+                  <a target="_blank" href="https://www.youtube.com/watch?v=V7RUE_hN6CI&list=PLHZOhV2rP0rlOnK9G820aDHUi11ZkQH9Q&index=11" class="btn btn-dark fw-bold mt-2">Miralo acá</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="../img/yt-programas/13.jfif" class="card-img-top" alt="13/04">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">#ParenLaMano Completo - 13/04 | Vorterix</h5>
+                  <a target="_blank" href="https://www.youtube.com/watch?v=LIRF6DT1VxY&list=PLHZOhV2rP0rlOnK9G820aDHUi11ZkQH9Q&index=12" class="btn btn-dark fw-bold mt-2">Miralo acá</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="../img/yt-programas/12.jfif" class="card-img-top" alt="12/04">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">#ParenLaMano Completo - 12/04 | Vorterix</h5>
+                  <a target="_blank" href="https://www.youtube.com/watch?v=3HHdKqcfkVM&list=PLHZOhV2rP0rlOnK9G820aDHUi11ZkQH9Q&index=13" class="btn btn-dark fw-bold mt-2">Miralo acá</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="programas__banner">
+        </section>
     </main>
 
-    <footer>
-
+    <footer class="container-fluid d-flex justify-content-between align-items-center">
+        <div class="d-flex">
+          <a href="https://www.instagram.com/parenlamanok/"><img class="px-2 icono" src="../img/icons8-instagram.svg" alt=""></a>
+          <a href="https://twitter.com/parenlamanok"><img class="px-2 icono" src="../img/icons8-twitter.svg" alt=""></a>
+          <a href="https://wa.me/1140419660?text="><img class="px-2 icono" src="../img/icons8-whatsapp.svg" alt=""></a>
+        </div>
+        
+        <p class="lead text-secondary fs-6 mb-0">©2022 Todos los derechos reservados</p>
     </footer>
 
-
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     
 </body>
 </html>
