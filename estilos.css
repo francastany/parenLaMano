@@ -32,23 +32,15 @@ nav .container-fluid{
     position: absolute;
     top: 3rem;
     right: 4rem;
-}
-
-.equipo__carta{
-    width: 100%;
-}
-
-.equipo__texto{
-    text-align: center;
-    width: 100%;
+    
 }
 
 .carac{
-    height: 18em;
+    min-height: 18em;
     background-image: radial-gradient(circle, #312c42, #4b3b6c, #6a4997, #9154c1, #bd5cea);
 }
+
 .carac h4{
-    font-weight: lighter;
     font-family: 'Press Start 2P', cursive;
 }
 
@@ -60,4 +52,66 @@ nav .container-fluid{
     row-gap: 1rem;
 }
 
+.equipo{
+    min-height: 70vh;
+}
+
+.equipo h4{
+    font-family: 'Press Start 2P', cursive;
+    color: #4b3b6c;    
+}
+
+.equipo__grid{
+    gap: 1rem;
+}
+
+.equipo__img{
+    width: 100%;
+}
+
+
+.equipo__texto{
+    font-family: 'Press Start 2P', cursive;
+    color: #6a4997;
+}
+
+.invitados{
+    min-height: 80vh;
+    
+    background-image: radial-gradient(circle, #bd5cea, #9154c1, #6a4997, #4b3b6c, #312c42);    
+}
+
+/* .invitados__fotos{
+    width: 50%;
+    
+} */
+
+.invitados__fotos img{
+    width: 45%;
+}
+
+/* .invitados__title{
+    width: 30%;
+    height: 100%;
+} */
+
+.invitados__title h4{
+    font-family: 'Press Start 2P', cursive;   
+}
+
+.invitados__title a{
+    font-family: 'Press Start 2P', cursive;   
+}
+
+footer{
+    background-color: #302B41;
+    height: 3em;
+}
+footer img{
+    height: 100%;
+}
+
+.icono{
+    height: 1.7rem;
+}
 
