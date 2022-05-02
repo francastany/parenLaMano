@@ -133,3 +133,27 @@ footer img{
     background-position: center;
 }
 
+.contacto{
+    height: 90vh;
+    background-color: #302B41;
+
+}
+.contacto__img{
+    width: 100%;
+}
+
+.contacto__titulo{
+    font-family: 'Press Start 2P', cursive;
+}
+
+.contacto__letra{
+    font-family: 'Press Start 2P', cursive;
+
+}
+.enVivo{
+    height: 90vh;
+}
+.enVivo__iframe{
+    width: 100%;
+    height: 100%;
+}
